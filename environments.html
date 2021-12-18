@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="default.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Assignment 5">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Anthony Wahl">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 5</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center">New Gaming Studios</h1>
+        </header>
+        <p>Creating new experiences through imagination.</p>
+        <hr>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="environments.html">Environments</a></li>
+            <li><a href="assets.html">Assets</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+
+              <!--First Environment "Atlantis"-->
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/at/atdesc.jpg" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/at/at1.PNG" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide1"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide3"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/at/at3.JPG" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide2"
+                    class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide4"
+                    class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+                <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/at/at2.JPG" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide3"
+                    class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide5"
+                    class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide5"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/at/at5.png" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide4"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide6"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+
+              <li id="carousel__slide6"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/at/at4.png" alt="Atlantis" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide5"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide7"
+                   class="carousel__next">Go to first slide</a>
+              </li>
+
+            <!--Second Environment "Firing Range"-->
+              <li id="carousel__slide7"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/fr/frdesc.jpg" alt="Firing Range" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide6"
+                class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide8"
+                class="carousel__next">Go to first slide</a>
+              </li>
+
+              <li id="carousel__slide8"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/fr/fr1.jpg" alt="Firing Range" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide7"
+                class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide9"
+                class="carousel__next">Go to first slide</a>
+              </li>
+
+              <li id="carousel__slide9"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/fr/fr2.jpg" alt="Firing Range" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide8"
+                class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide10"
+                class="carousel__next">Go to first slide</a>
+              </li>
+
+              <li id="carousel__slide10"
+              tabindex="0"
+              class="carousel__slide">
+              <img src="images/fr/fr3.jpg" alt="Firing Range" style="max-width: fit-content;">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide9"
+              class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide11"
+              class="carousel__next">Go to first slide</a>
+            </li>
+
+            <li id="carousel__slide11"
+            tabindex="0"
+            class="carousel__slide">
+            <img src="images/fr/fr4.jpg" alt="Firing Range" style="max-width: fit-content;">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide10"
+            class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide12"
+            class="carousel__next">Go to first slide</a>
+          </li>
+
+          <!--Third Environment "Mortrix"-->
+          <li id="carousel__slide12"
+            tabindex="0"
+            class="carousel__slide">
+            <img src="images/mo/modesc.jpg" alt="Matrix Environment" style="max-width: fit-content;">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide11"
+            class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide13"
+            class="carousel__next">Go to first slide</a>
+          </li>
+
+          <li id="carousel__slide13"
+            tabindex="0"
+            class="carousel__slide">
+            <img src="images/mo/mo1.png" alt="Matrix Environment" style="max-width: fit-content;">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide12"
+            class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide14"
+            class="carousel__next">Go to first slide</a>
+          </li>
+
+          <li id="carousel__slide14"
+            tabindex="0"
+            class="carousel__slide">
+            <img src="images/mo/mo2.png" alt="Matrix Environment" style="max-width: fit-content;">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide13"
+            class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide15"
+            class="carousel__next">Go to first slide</a>
+          </li>
+
+          <li id="carousel__slide15"
+            tabindex="0"
+            class="carousel__slide">
+            <img src="images/mo/mo3.png" alt="Matrix Environment" style="max-width: fit-content;">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide14"
+            class="carousel__prev">Go to previous slide</a>
+          </li>
+
+            </aside>
+          </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.unrealengine.com/en-US/">Unreal Engine 4</a></li>
+            <br>
+            <li><a href="https://mordhau.mod.io/?filter=t">Mod.io</a></li>
+            <br>
+            <li><a href="https://mordhau.com/">Mordhau</a></li>
+            <br>
+            <li><a href="index.html">myemailhere@example.com</a></li>
+        </ul>
+    </footer>
+    </body>
+</html>

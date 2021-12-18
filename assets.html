@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="default.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Assignment 5">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Anthony Wahl">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 5</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center">New Gaming Studios</h1>
+        </header>
+        <p>Creating new experiences through imagination.</p>
+        <hr>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="environments.html">Environments</a></li>
+            <li><a href="assets.html">Assets</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/assets/assets0.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/assets/assets1.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                  <a href="#carousel__slide1"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide3"
+                     class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/assets/assets2.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide2"
+                    class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide4"
+                    class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+                <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+                <img src="images/assets/assets3.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper">
+                <a href="#carousel__slide3"
+                    class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide5"
+                    class="carousel__next">Go to next slide</a>
+                </div>
+              </li>
+
+              <li id="carousel__slide5"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/assets/assets4.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide4"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide6"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+
+              <li id="carousel__slide6"
+                  tabindex="0"
+                  class="carousel__slide">
+                  <img src="images/assets/assets5.jpg" alt="Assets" style="max-width: fit-content;">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide5"
+                   class="carousel__prev">Go to previous slide</a>
+              </li>
+
+            </aside>
+          </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.unrealengine.com/en-US/">Unreal Engine 4</a></li>
+            <br>
+            <li><a href="https://mordhau.mod.io/?filter=t">Mod.io</a></li>
+            <br>
+            <li><a href="https://mordhau.com/">Mordhau</a></li>
+            <br>
+            <li><a href="index.html">myemailhere@example.com</a></li>
+        </ul>
+    </footer>
+    </body>
+</html>
